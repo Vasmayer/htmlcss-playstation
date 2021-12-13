@@ -1,9 +1,14 @@
-
+/*HEADER*/
 #header .nav-item img
 {
     max-width: 10px;
     margin: 0 20px 0 10px;
 }
+#header .nav-item .nav-link
+{
+    color: #010101;
+}
+/*space buteen on ul nav link*/
 #navbarNav
 {
     justify-content: space-between;
@@ -11,4 +16,45 @@
 #header .nav-item #lens
 {
     max-width: 25px;
+    margin-right:0;
+  
+}
+#header{
+
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+}
+#logo{
+ 
+    max-width: 80px;
+    margin-left: calc( 100% - 90px );
+   
+}
+/*MAIN*/
+main{
+
+    margin-top: 115px;
+}
+/*JUMBOTRON RETURNAL*/
+#jumbo-returnal
+{
+    background-image: url("../img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 50px;
+}
+
+#jumbo-returnal img
+{
+    max-width: 200px;
+    height: auto;
+    object-fit: cover;
 }
