@@ -58,3 +58,18 @@ main{
     object-fit: cover;
     border-radius: 20px;
 }
+
+/*THIS IS PS5*/
+#this-is-ps5
+{
+    padding: 100px 0 0 0;
+}
+#this-is-ps5 p
+{
+    font-size: 20px;
+}
+/*CONSOLE PS5*/
+#console-ps5 img
+{
+    max-width: 100%;
+}
