@@ -64,12 +64,12 @@ main{
 {
     padding: 100px 0 0 0;
 }
-#this-is-ps5 p,#console-ps5 p,#news-games p
+#this-is-ps5 p,#console-ps5 p,#news-games p,#explore-ps4 p,.ps4-text p
 {
     font-size: 20px;
 }
 /*CONSOLE PS5*/
-#console-ps5 img,#controllers img
+#console-ps5 img,#controllers img,#ps4 img
 {
     max-width: 100%;
 }
@@ -83,7 +83,7 @@ main{
     height: 600px;
     padding: 50px;
 }
-/*NEWS GAMES*/
+
 
 /*MEDIA QUERIES*/
 
