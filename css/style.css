@@ -52,7 +52,7 @@ main{
     object-fit: cover;
 }
 /*6 GAMES PS5*/
-#games-ps5 img
+#games-ps5 img,#news-games img
 {
     width: 100%;
     object-fit: cover;
@@ -64,7 +64,7 @@ main{
 {
     padding: 100px 0 0 0;
 }
-#this-is-ps5 p,#console-ps5 p
+#this-is-ps5 p,#console-ps5 p,#news-games p
 {
     font-size: 20px;
 }
@@ -83,6 +83,7 @@ main{
     height: 600px;
     padding: 50px;
 }
+/*NEWS GAMES*/
 
 /*MEDIA QUERIES*/
 
