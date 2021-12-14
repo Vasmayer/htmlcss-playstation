@@ -45,7 +45,7 @@ main{
     padding: 50px;
 }
 
-#jumbo-returnal img
+#jumbo-returnal img,#jumbo-take-it-two img
 {
     max-width: 200px;
     height: auto;
@@ -64,12 +64,34 @@ main{
 {
     padding: 100px 0 0 0;
 }
-#this-is-ps5 p
+#this-is-ps5 p,#console-ps5 p
 {
     font-size: 20px;
 }
 /*CONSOLE PS5*/
-#console-ps5 img
+#console-ps5 img,#controllers img
 {
     max-width: 100%;
+}
+/*JUMBOTRON TAKE IT TWO*/
+#jumbo-take-it-two
+{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    height: 600px;
+    padding: 50px;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 992px)
+{
+    #jumbo-take-it-two img
+    {
+        max-width: 350px;
+        height: auto;
+        object-fit: cover;
+    }
 }
