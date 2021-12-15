@@ -64,12 +64,12 @@ main{
 {
     padding: 100px 0 0 0;
 }
-#this-is-ps5 p,#console-ps5 p,#news-games p,#explore-ps4 p,.ps4-text p
+#sale p,#playstation-plus p,#this-is-ps5 p,#console-ps5 p,#news-games p,#explore-ps4 p,.ps4-text p
 {
     font-size: 20px;
 }
 /*CONSOLE PS5*/
-#console-ps5 img,#controllers img,#ps4 img
+#sale-column img,#console-ps5 img,#controllers img,#ps4 img,#image-playstation-plus img
 {
     max-width: 100%;
 }
@@ -83,6 +83,52 @@ main{
     height: 600px;
     padding: 50px;
 }
+/*PLAYSTATION PLUS*/
+.bg-gray
+{
+    background-color: #BEBCBB;
+}
+#playstation-plus button{
+    background-color: lightgray;
+}
+.jumbo-playstation-plus>img
+{
+    max-width: 300px;
+}
+/*PLAYSTATION NOW*/
+.bg-blue
+{
+    background-color: #161C3B;
+}
+
+/*SOCIAL MEDIA*/
+
+#social-media img
+{
+    max-width: 100%;
+}
+
+/*FOOTER*/
+footer
+{
+    background-color: #00439B;
+    padding-top: 50px;
+}
+footer img
+{
+    max-width: 150px;
+}
+footer a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
 
 
 /*MEDIA QUERIES*/
