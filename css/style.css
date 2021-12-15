@@ -1,111 +1,68 @@
-/*HEADER*/
-#header .nav-item img
+body{
+    padding-top: 115px;
+}
+/*UTILITY*/
+.border-radius-20
 {
-    max-width: 10px;
-    margin: 0 20px 0 10px;
-}
-#header .nav-item .nav-link
-{
-    color: #010101;
-}
-/*space buteen on ul nav link*/
-#navbarNav
-{
-    justify-content: space-between;
-}
-#header .nav-item #lens
-{
-    max-width: 25px;
-    margin-right:0;
-  
-}
-#header{
-    width: 100%;
-    background-color: black;
-}
-#logo{
- 
-    max-width: 80px;
-    margin-left: calc( 100% - 90px );
-   
-}
-/*MAIN*/
-main{
-
-    margin-top: 115px;
-}
-/*JUMBOTRON RETURNAL*/
-#jumbo-returnal
-{
-    background-image: url("../img/jumbo-bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat ;
-    height: 600px;
-    padding: 50px;
-}
-
-#jumbo-returnal img,#jumbo-take-it-two img
-{
-    max-width: 200px;
-    height: auto;
-    object-fit: cover;
-}
-/*6 GAMES PS5*/
-#games-ps5 img,#news-games img
-{
-    width: 100%;
-    object-fit: cover;
     border-radius: 20px;
 }
-
-/*THIS IS PS5*/
-#this-is-ps5
-{
-    padding: 100px 0 0 0;
-}
-#sale p,#playstation-plus p,#this-is-ps5 p,#console-ps5 p,#news-games p,#explore-ps4 p,.ps4-text p
-{
-    font-size: 20px;
-}
-/*CONSOLE PS5*/
-#sale-column img,#console-ps5 img,#controllers img,#ps4 img,#image-playstation-plus img
-{
-    max-width: 100%;
-}
-/*JUMBOTRON TAKE IT TWO*/
-#jumbo-take-it-two
-{
-    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat ;
-    height: 600px;
-    padding: 50px;
-}
-/*PLAYSTATION PLUS*/
 .bg-gray
 {
     background-color: #BEBCBB;
 }
-#playstation-plus button{
-    background-color: lightgray;
-}
-.jumbo-playstation-plus>img
-{
-    max-width: 300px;
-}
-/*PLAYSTATION NOW*/
 .bg-blue
 {
     background-color: #161C3B;
 }
-
-/*SOCIAL MEDIA*/
-
-#social-media img
+.max-width-300
 {
-    max-width: 100%;
+    max-width: 300px;
+}
+/*HEADER*/
+.chevron-down
+{
+    max-width: 10px;
+    margin: 0 20px 0 10px;
+}
+/*NAVBAR*/
+#navbarNav
+{
+    justify-content: space-between;
+}
+/*LOGO SONY*/
+#logo-sony{
+ 
+    max-width: 80px;
+    margin-left: calc( 100% - 90px );
+}
+/*LENS*/
+.resize-lens img
+{
+    max-width: 25px;
+}
+/*JUMBOTRON*/
+.jumbotron
+{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+    padding: 250px 50px 50px 50px;
+}
+.jumbotron img
+{
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+/*BACKGROUND IMAGE JUMBOTRON RETURNAL*/
+.jumbotron#jumbo-returnal
+{
+    background-image: url("../img/jumbo-bg.png"); 
+}
+/*BACKGROUND IMAGE JUMBOTRON TAKE IT TWO*/
+.jumbotron#jumbo-take-it-two
+{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
 }
 
 /*FOOTER*/
@@ -123,12 +80,6 @@ footer a
     text-decoration: none;
     color: white;
 }
-
-
-
-
-
-
 
 
 /*MEDIA QUERIES*/
